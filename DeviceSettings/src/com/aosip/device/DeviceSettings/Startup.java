@@ -66,6 +66,7 @@ public class Startup extends BroadcastReceiver {
         enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_WIDECOLOR_SWITCH, false);
         restore(WideColorModeSwitch.getFile(), enabled);        
         VibratorStrengthPreference.restore(context);
+        Utils.enableService(context);
     }
 
     private boolean hasRestoredTunable(Context context) {
