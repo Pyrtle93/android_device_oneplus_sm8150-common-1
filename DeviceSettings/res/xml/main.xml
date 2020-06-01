@@ -17,11 +17,13 @@
 
         <SwitchPreference
             android:key="dc"
+            android:icon="@drawable/ic_dc_mode_icon"
             android:summary="@string/dc_mode_summary"
             android:title="@string/dc_mode_title" />
 
         <SwitchPreference
             android:key="hbm"
+            android:icon="@drawable/ic_hbm_mode_icon"
             android:summary="@string/hbm_mode_summary"
             android:icon="@drawable/rr_hbm_icon"
             android:title="@string/hbm_mode_title"
@@ -29,6 +31,7 @@
 
         <Preference
             android:key="panel_category"
+            android:icon="@drawable/ic_panel_modes_icon"
             android:title="@string/panel_category_title"
             android:icon="@drawable/rr_panel_icon"
             android:summary="@string/panel_category_summary"
@@ -55,12 +58,14 @@
 
         <SwitchPreference
             android:key="auto_refresh_rate"
+            android:icon="@drawable/ic_auto_refresh_icon"
             android:summary="@string/auto_refresh_rate_summary"
             android:title="@string/auto_refresh_rate_title"
             android:persistent="true" />
 
         <SwitchPreference
             android:key="refresh_rate"
+            android:icon="@drawable/ic_forced_refresh_icon"
             android:summary="@string/refresh_rate_summary"
             android:title="@string/refresh_rate_title"
             android:persistent="false" />
@@ -69,7 +74,6 @@
             android:icon="@drawable/ic_info_outline_24dp"
             android:persistent="false"
             android:summary="@string/refresh_rate_warning" />
-  
     </PreferenceCategory>
 
     <PreferenceCategory
