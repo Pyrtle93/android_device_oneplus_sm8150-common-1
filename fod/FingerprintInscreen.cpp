@@ -102,6 +102,10 @@ Return<void> FingerprintInscreen::onShowFODView() {
     this->mVendorDisplayService->setMode(21, 0);
     this->mVendorDisplayService->setMode(17, 1);
     this->mVendorDisplayService->setMode(19, 0);
+    this->mVendorDisplayService->setMode(OP_DISPLAY_AOD_MODE, 0);
+    this->mVendorDisplayService->setMode(OP_DISPLAY_SET_DIM, 0);
+    this->mVendorDisplayService->setMode(OP_DISPLAY_NOTIFY_PRESS, 0);
+
     return Void();
 }
 
