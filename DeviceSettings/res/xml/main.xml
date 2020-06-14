@@ -25,7 +25,6 @@
             android:key="hbm"
             android:icon="@drawable/ic_hbm_mode_icon"
             android:summary="@string/hbm_mode_summary"
-            android:icon="@drawable/rr_hbm_icon"
             android:title="@string/hbm_mode_title"
             android:defaultValue="false" />
 
@@ -44,7 +43,6 @@
             android:key="panel_category"
             android:icon="@drawable/ic_panel_modes_icon"
             android:title="@string/panel_category_title"
-            android:icon="@drawable/rr_panel_icon"
             android:summary="@string/panel_category_summary"
             android:persistent="false" >
             <intent android:action="android.intent.action.MAIN"
@@ -96,7 +94,6 @@
             android:icon="@drawable/ic_up_icon"
             android:dialogTitle="@string/notification_slider_selection_dialog_title"
             android:title="@string/notification_slider_top_position"
-            android:icon="@drawable/rr_up_icon"
             android:summary="%s"
             android:entries="@array/notification_slider_action_entries"
             android:entryValues="@array/notification_slider_action_entry_values" />
