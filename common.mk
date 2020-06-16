@@ -498,10 +498,6 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service \
 
-# Vndk-sp
-PRODUCT_PACKAGES += \
-    vndk-sp
-
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
