@@ -31,7 +31,10 @@
     <dimen name="tri_state_up_dialog_position_deep_land">21.0px</dimen>
 
     <!-- the padding on the start and the end of the statusbar -->
-    <dimen name="status_bar_extra_padding">6dp</dimen>
+    <dimen name="status_bar_extra_padding">4dp</dimen>
+
+    <!-- Multi user switch has some intrinsic padding to it -->
+    <dimen name="multi_user_switch_keyguard_margin">12dp</dimen>
 
     <!-- OmniWeather image size -->
     <dimen name="current_weather_image_size">42dp</dimen>

@@ -4,13 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# ADB at boot
-PRODUCT_PROPERTY_OVERRIDES += \
-persist.service.adb.enable=1 \
-persist.service.debuggable=1 \
-persist.sys.usb.config=mtp,adb \
-ro.adb.secure=0
-
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     aaudio.hw_burst_min_usec=2000 \
@@ -182,9 +175,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.notify_nfc=1 \
     ro.hardware.nfc_nci=nqx.default \
     ro.vendor.nfc.notify_tp=1
-	
-# PASR
-vendor.power.pasr.enabled=true
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \

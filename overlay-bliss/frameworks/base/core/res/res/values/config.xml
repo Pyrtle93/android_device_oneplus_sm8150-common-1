@@ -47,15 +47,22 @@
 
     <!-- Enable dual LTE capability support-->
     <bool name="config_dual_LTE_capability">true</bool>
-
-    <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">140px</dimen>
-
+	
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
-
+	
     <!-- Whether to use in-built Screen Record service -->
     <bool name="config_showScreenRecord">true</bool>
+	
+    <!-- Whether to dim the FOD icon -->
+    <bool name="config_fodIconDim">true</bool>
+	
+    <!-- Vowifi -->
+    <bool name="config_hasVowifi">true</bool>
+
+    <!-- Radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius_top">140px</dimen>
+    <dimen name="rounded_corner_radius_bottom">140px</dimen>
 
     <!-- Screen off delay -->
     <integer name="config_screen_off_delay">0</integer>
